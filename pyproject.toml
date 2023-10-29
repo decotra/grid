@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Meng Xiangzhuo", email = "aumo@foxmail.com"},
+]
+dependencies = [
+    "matplotlib>=3.8.0",
+]
+requires-python = ">=3.12,<3.13,"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipykernel>=6.26.0",
+    "-e file:///Volumes/T7/github/decotra/binance-ohlcv#egg=binance-ohlcv",
+    "matplotlib>=3.8.0",
+]
